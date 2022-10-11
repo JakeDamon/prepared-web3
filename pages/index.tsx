@@ -4,6 +4,9 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Main from "../components/main";
 
+import styles from "../styles/Home.module.css";
+import { Main } from "./main";
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
