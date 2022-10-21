@@ -2,13 +2,13 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 // import styles from "../styles/Home.module.css";
-import { Header } from "./header";
+import Header from "./header";
 
 const styles = {
   container: `h-[60px] w-full flex items-center gap-5 px-16`,
 };
 
-export const Main = () => {
+export default function Main() {
   return (
     <div>
       <Header />
@@ -45,7 +45,7 @@ export const Main = () => {
       </section>
     </div>
   );
-};
+}
 
 // <section
 //   class="relative bg-[url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)] bg-cover bg-center bg-no-repeat"

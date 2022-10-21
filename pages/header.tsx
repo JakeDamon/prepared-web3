@@ -24,7 +24,7 @@ const wagmiClient = createClient({
 
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 
-export const Header = () => {
+export default function Header() {
   return (
     <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider chains={chains}>
@@ -168,4 +168,4 @@ export const Header = () => {
       </RainbowKitProvider>
     </WagmiConfig>
   );
-};
+}

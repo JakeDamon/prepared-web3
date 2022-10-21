@@ -10,7 +10,7 @@ const settings = {
 
 const alchemy = new Alchemy(settings);
 
-async function main() {
+export default async function main() {
   const latestBlock = await alchemy.core.getBlockNumber();
   console.log("The latest block number is", latestBlock);
 }
