@@ -5,7 +5,7 @@ import { Main } from "./main";
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Main />
     </div>
   );
