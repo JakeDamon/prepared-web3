@@ -1,6 +1,7 @@
 // Javascript
 // Setup: npm install alchemy-sdk
 const { Alchemy, Network } = require("alchemy-sdk");
+export {};
 
 const settings = {
   apiKey: "sJNxFCoRMV31PY5Yqn5y-v1Ugeg3m7aw",
